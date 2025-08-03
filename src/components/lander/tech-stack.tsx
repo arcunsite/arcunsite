@@ -10,7 +10,7 @@ import {
 } from "./icons";
 
 type Partner = {
-  name: string; // kept for ordering/count only
+  name: string;
   icon: React.ComponentType<unknown>;
   description: string;
 };
@@ -69,14 +69,13 @@ export default function TechStack(): JSX.Element {
       </div>
 
       <div className="mx-auto max-w-5xl">
-        {/* First row: 3 cards */}
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {techPartners.slice(0, 3).map((partner, index) => {
             const Icon = partner.icon;
             return (
               <div
                 key={partner.name}
-                className="relative flex flex-col overflow-hidden rounded-xl border border-neutral-900 bg-transparent hover:bg-gradient-to-b from-neutral-900 to-neutral-950 transition-colors duration-200 cursor-default"
+                className="relative flex flex-col overflow-hidden rounded-xl border border-neutral-900 bg-black cursor-default"
               >
                 <div className="flex justify-end px-5 pt-6 pb-0">
                   <div className="text-xs font-semibold uppercase tracking-wider text-neutral-500">
@@ -104,7 +103,6 @@ export default function TechStack(): JSX.Element {
           })}
         </div>
 
-        {/* Second row: 2 cards centered */}
         <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2 md:max-w-3xl md:mx-auto">
           {techPartners.slice(3).map((partner, i) => {
             const actualIndex = i + 3;
@@ -112,7 +110,7 @@ export default function TechStack(): JSX.Element {
             return (
               <div
                 key={partner.name}
-                className="relative flex flex-col overflow-hidden rounded-xl border border-neutral-900 bg-transparent hover:bg-gradient-to-b from-neutral-900 to-neutral-950 transition-colors duration-200 cursor-default"
+                className="relative flex flex-col overflow-hidden rounded-xl border border-neutral-900 bg-black cursor-default"
               >
                 <div className="flex justify-end px-5 pt-6 pb-0">
                   <div className="text-xs font-semibold uppercase tracking-wider text-neutral-500">

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, GithubLogo } from "@phosphor-icons/react";
+import { ArrowRight } from "@phosphor-icons/react";
 
 export default function Hero() {
   return (
@@ -37,7 +37,7 @@ export default function Hero() {
               employers.
             </p>
 
-            <div className="flex gap-4">
+            <div className="flex">
               <Button
                 size="sm"
                 variant="secondary"
@@ -46,14 +46,6 @@ export default function Hero() {
                 <ArrowRight size={20} weight="fill" />
                 Get Started
               </Button>
-              {/* <Button
-                variant="ghost"
-                size="sm"
-                className="bg-none hover:bg-transparent text-neutral-100 hover:text-neutral-300 transition-colors duration-200 cursor-pointer"
-              >
-                <GithubLogo size={20} weight="fill" />
-                Documentation
-              </Button> */}
             </div>
           </div>
         </div>

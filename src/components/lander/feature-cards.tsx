@@ -92,7 +92,7 @@ export default function FeatureCards(): JSX.Element {
             return (
               <Card
                 key={index}
-                className="relative flex flex-col overflow-hidden rounded-xl border border-neutral-900 bg-transparent hover:bg-gradient-to-b from-neutral-900 to-neutral-950 transition-colors duration-200 cursor-default"
+                className="relative flex flex-col overflow-hidden rounded-xl border border-neutral-900 bg-black cursor-default"
               >
                 <CardHeader className="flex justify-end px-5 pt-6 pb-0">
                   <div className="text-xs font-semibold uppercase tracking-wider text-neutral-500">

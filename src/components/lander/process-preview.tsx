@@ -63,7 +63,7 @@ export default function ProcessPreview(): JSX.Element {
           {steps.map((step, index) => (
             <Card
               key={index}
-              className="relative flex flex-col overflow-hidden rounded-xl border border-neutral-900 bg-gradient-to-b from-black via-black to-black hover:from-black hover:via-black hover:to-pink-900 transition-colors duration-300 cursor-default"
+              className="relative flex flex-col overflow-hidden rounded-xl border border-neutral-900 bg-black cursor-default"
             >
               <CardHeader className="flex justify-end px-5 pt-6">
                 <div className="text-xs font-semibold uppercase tracking-wider text-neutral-500">
