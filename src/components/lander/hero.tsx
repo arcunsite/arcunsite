@@ -1,14 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import HeroCard from "./hero-card";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, GithubLogo } from "@phosphor-icons/react";
 
 export default function Hero() {
   return (
-    <div className="p-8 border border-neutral-900 rounded-2xl">
-      <div className="flex justify-center items-center">
+    <>
+      <div className="flex justify-center items-center cursor-default">
         <div className="relative w-full h-[360px]">
           <Image
             src="/banner.png"
@@ -33,8 +32,8 @@ export default function Hero() {
             </h1>
 
             <p className="max-w-xl text-neutral-200 text-lg mb-6">
-              Create a portfolio that's truly yours, distinctive, beautiful, and
-              built to impress. Showcase your best work and stand out to
+              Create a portfolio that is truly yours, distinctive, beautiful,
+              and built to impress. Showcase your best work and stand out to
               employers.
             </p>
 
@@ -47,22 +46,18 @@ export default function Hero() {
                 <ArrowRight size={20} weight="fill" />
                 Get Started
               </Button>
-              <Button
+              {/* <Button
                 variant="ghost"
                 size="sm"
                 className="bg-none hover:bg-transparent text-neutral-100 hover:text-neutral-300 transition-colors duration-200 cursor-pointer"
               >
                 <GithubLogo size={20} weight="fill" />
                 Documentation
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
       </div>
-
-      <div className="mt-8">
-        <HeroCard />
-      </div>
-    </div>
+    </>
   );
 }

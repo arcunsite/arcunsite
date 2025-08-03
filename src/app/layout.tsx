@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${funnelSans.variable} ${geistMono.variable} antialiased font-sans max-w-6xl mx-auto bg-neutral-950 text-neutral-100`}
+        className={`${funnelSans.variable} ${geistMono.variable} antialiased font-sans max-w-6xl mx-auto bg-black text-neutral-100`}
       >
         {children}
         <Analytics />
