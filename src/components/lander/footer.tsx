@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="flex justify-center items-center cursor-default">
       <div className="relative w-full h-[360px]">
         <Image
-          src="/banner.png"
+          src="/banner.avif"
           alt="Footer Banner"
           fill
           style={{ objectFit: "cover" }}

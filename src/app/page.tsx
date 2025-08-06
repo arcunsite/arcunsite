@@ -1,5 +1,6 @@
 import Header from "@/components/lander/header";
 import Hero from "@/components/lander/hero";
+import PortfolioPreview from "@/components/lander/portfolio-preview";
 import TechStack from "@/components/lander/tech-stack";
 import ProcessPreview from "@/components/lander/process-preview";
 import FeatureCards from "@/components/lander/feature-cards";
@@ -14,6 +15,9 @@ export default function Home() {
           <div className="p-2 border border-neutral-900 rounded-2xl space-y-2">
             <div>
               <Hero />
+            </div>
+            <div className="p-8 border border-neutral-900 rounded-2xl">
+              <PortfolioPreview />
             </div>
             <div className="p-8 border border-neutral-900 rounded-2xl">
               <ProcessPreview />

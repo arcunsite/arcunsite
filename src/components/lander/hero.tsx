@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="flex justify-center items-center cursor-default">
         <div className="relative w-full h-[360px]">
           <Image
-            src="/banner.png"
+            src="/banner.avif"
             alt="Banner"
             fill
             style={{ objectFit: "cover" }}
