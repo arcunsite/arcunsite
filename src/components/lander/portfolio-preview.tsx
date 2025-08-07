@@ -34,7 +34,7 @@ export default function PortfolioPreview() {
                 className="rounded-xl"
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent rounded-xl" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded-xl" />
           </Card>
 
           <Card className="relative overflow-hidden rounded-xl border border-neutral-900 bg-black">
@@ -49,7 +49,7 @@ export default function PortfolioPreview() {
                 className="rounded-xl"
               />
             </div>
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent rounded-xl" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent rounded-xl" />
           </Card>
         </div>
       </div>
