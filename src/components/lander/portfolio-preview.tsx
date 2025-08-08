@@ -28,7 +28,7 @@ export default function PortfolioPreview() {
                 alt="Portfolio Example 1"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
-                quality={95}
+                quality={100}
                 priority
                 style={{ objectFit: "cover" }}
                 className="rounded-xl"
@@ -44,7 +44,7 @@ export default function PortfolioPreview() {
                 alt="Portfolio Example 2"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
-                quality={95}
+                quality={100}
                 style={{ objectFit: "cover" }}
                 className="rounded-xl"
               />
