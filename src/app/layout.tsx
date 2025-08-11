@@ -15,6 +15,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "arcunsite - build portfolios that get you hired",
+  icons: {
+    icon: "/arcunsite.svg",
+    shortcut: "/arcunsite.svg",
+  },
   description: "arcunsite - build portfolios that get you hired",
 };
 
