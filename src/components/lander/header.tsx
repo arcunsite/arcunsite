@@ -18,19 +18,25 @@ export default function Header() {
           </Link>
           <nav className="hidden md:flex items-center gap-6 text-sm text-neutral-400">
             <Link
-              href="#"
+              href="/browse"
+              className="hover:text-neutral-100 transition-colors duration-200"
+            >
+              Browse
+            </Link>
+            {/* <Link
+              href="/documentation"
               className="hover:text-neutral-100 transition-colors duration-200"
             >
               Documentation
-            </Link>
+            </Link> */}
             <Link
-              href="#"
+              href="/showcase"
               className="hover:text-neutral-100 transition-colors duration-200"
             >
               Showcase
             </Link>
             <Link
-              href="#"
+              href="/contribute"
               className="hover:text-neutral-100 transition-colors duration-200"
             >
               Contribute
